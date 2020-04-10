@@ -1,0 +1,34 @@
+.main {
+    background-color: #333333;
+    background-size: 100vh;
+}
+
+.photo {
+    height: 500px;
+    background: linear-gradient(135deg, rgba(252, 222, 190, .6) 0%, rgba(252, 222, 190, .6) 70%, rgba(37, 137, 189, .6) 100%),
+                    url("asssignment\\bg.jpg") center;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
+    background-size: cover;
+}
+
+.text-content {
+    text-align: center;
+}
+
+.text-heading {
+    font-size: 150px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(135deg, rgb(252,222,190) 0%, rgb(252,222,190) 50%, rgb(37,137,189) 50%, rgb(37,137,189) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-paragraph {
+    color: rgb(37, 137, 189);
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.text-pink {
+    color: #FCDEBE;
+}
